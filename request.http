@@ -1,0 +1,30 @@
+POST http://localhost:4002/products
+Content-Type: application/json
+
+{
+    "name":"Pera",
+    "values":12.00,
+    "qtd":3
+}
+
+###
+
+GET http://localhost:4002/products
+
+###
+
+GET http://localhost:4002/products/ce659e79-59ab-46e1-9e79-75dbed04ab7a
+
+###
+
+PUT http://localhost:4002/products/5e9508dc-c48a-42c2-9e7d-37f25f68199e
+Content-Type: application/json
+
+{
+    "name":"Pera",
+    "values":12.00,
+    "qtd":3
+}
+###
+
+DELETE http://localhost:4002/products/343da53e-09e4-4d8d-8ebd-e9b29eaf11fd

@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-start",
+  "version": "1.0.0",
+  "description": "Consolidando conhecimentos sobre NODE.",
+  "main": "index.js",
+  "scripts": {
+    "dev":"nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lipiw/nodejs-start.git"
+  },
+  "author": "Felipe Rafael Gonçalves",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lipiw/nodejs-start/issues"
+  },
+  "homepage": "https://github.com/lipiw/nodejs-start#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}
